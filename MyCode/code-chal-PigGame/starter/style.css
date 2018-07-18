@@ -149,6 +149,54 @@ i {
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
+#dice-1{top: 120px}
+#dice-2{top: 250px}
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+
+input#set-score-num{
+    position: absolute;
+	width: auto;
+	left: 50%;
+    bottom: 25%;
+	text-align: center;
+	transform: translateX(-50%);
+	color: #555;
+	background: none;
+	border: 1px solid #eb4d4d;
+	font-family: Lato;
+    font-size: 20px;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+    transition:  color 0.3s;
+    float: left;
+}
+
+button#set-score-submit{
+    position: absolute;
+	left: 50.5%;
+	bottom: 18%;
+    float: right;
+	text-align: center;
+	transform: translateX(-50%);
+	color: #555;
+	background: none;
+	font-family: Lato;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+	transition: color 0.3s;
+}
+
+#form-score-set{
+    width: 100%;
+}
+
+#form-score-set button.set-score-submit, #form-score-set input.set-score-num{
+    display: inline-block;
+}
