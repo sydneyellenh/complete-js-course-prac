@@ -13,12 +13,12 @@ let questions = [q1, q2, q3];
 let n = Math.floor(Math.random() * questions.length);
 
 // questions[n];
+i = 0;
 
-
-Question.prototype.displayQuestion(){
+Question.prototype.displayQuestion = function(){
     console.log(i + this.question);    
     for (let i = 0; i < this.answer.length; i++){
-        console.log(i + this.answers[i]);   
+        console.log(i + ': ' + this.answers[i]);   
     }
 }
      questions[n].displayQuestion();
