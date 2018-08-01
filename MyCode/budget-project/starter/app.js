@@ -22,6 +22,7 @@ let UIController = (function(){
                 type: document.querySelector(DOMstrings.inputType).value,
                 description: document.querySelector(DOMstrings.inputDescription).value,
                 value: document.querySelector(DOMstrings.inputValue).value,
+                
             };
         
         },
